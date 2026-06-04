@@ -16,13 +16,12 @@
           <span class="section-label mb-6 inline-flex">Book a strategy call</span>
 
           <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-5 leading-tight">
-            If your business is getting attention<br class="hidden lg:block" />
-            but not enough <span class="gradient-text">action</span> —<br class="hidden lg:block" />
-            let's fix the system.
+            Stop Losing Leads<br class="hidden lg:block" />
+            After They <span class="gradient-text">Find You.</span>
           </h2>
 
           <p class="text-white/55 text-base mb-6 leading-relaxed max-w-md">
-            Book a strategy call and we'll identify what is slowing growth down.
+            Book a strategy call and we'll identify the biggest leak in your growth system — whether it is trust, messaging, follow-up, or conversion flow.
           </p>
 
           <!-- Problem bullets -->
@@ -34,7 +33,7 @@
           </ul>
 
           <p class="text-white/40 text-sm mb-10 leading-relaxed max-w-xs">
-            You'll leave with a clearer next move — whether we work together or not.
+            You’ll leave with a clearer next move — whether we work together or not.
           </p>
 
           <!-- Direct contact -->

@@ -23,16 +23,16 @@
 
           <!-- Headline -->
           <h1 class="animate-hero-2 text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight mb-6">
-            Websites and lead<br />
-            systems for<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based local brands</span>
+            Websites & Growth<br />
+            Systems for<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Trust-Based Businesses</span>
           </h1>
 
           <!-- Subheadline -->
           <p class="animate-hero-3 text-lg sm:text-xl text-white/60 max-w-xl mb-3 leading-relaxed">
-            We help assisted living facilities, churches, and service brands turn attention into calls, inquiries, and clients.
+            We help assisted living facilities, churches, and service businesses generate more inquiries through better websites, stronger reputation management, and automated follow-up systems.
           </p>
           <p class="animate-hero-3 text-base text-white/40 max-w-xl mb-8 leading-relaxed">
-            Websites alone do not grow a business. You need clear messaging, strong conversion paths, and follow-up that actually happens.
+            The homepage is rebuilt around one path: trust, proof, system, and action — so visitors understand why to believe you and what to do next.
           </p>
 
           <!-- Bullets -->
@@ -54,7 +54,7 @@
               </svg>
             </a>
             <a href="#work" class="btn-secondary text-base">
-              See Our Work
+              View Case Studies
             </a>
           </div>
 
@@ -181,10 +181,10 @@ export default Vue.extend({
         'Backed by strategy, automation, and conversion thinking',
       ],
       proofTags: [
-        'Assisted living web redesigns',
-        'Church communication systems',
-        'Local business lead flow',
-        'Service brand visibility',
+        'Church websites',
+        'Assisted living growth systems',
+        'Reputation management',
+        'Conversion-focused design',
       ],
     }
   },

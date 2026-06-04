@@ -33,8 +33,8 @@
       <!-- Mobile menu toggle -->
       <button
         class="md:hidden p-2 text-white/70 hover:text-white"
-        @click="mobileOpen = !mobileOpen"
         aria-label="Toggle menu"
+        @click="mobileOpen = !mobileOpen"
       >
         <svg v-if="!mobileOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -76,11 +76,11 @@ export default Vue.extend({
       scrolled: false,
       mobileOpen: false,
       navLinks: [
-        { label: 'Services', href: '/#services' },
-        { label: 'Process', href: '/#process' },
+        { label: 'Results', href: '/#results' },
         { label: 'Work', href: '/#work' },
+        { label: 'Portfolio', href: '/#portfolio' },
+        { label: 'Services', href: '/#services' },
         { label: 'FAQs', href: '/#faqs' },
-        { label: 'ALF Reputation Engine', href: '/alf-reputation-engine' },
       ],
     }
   },

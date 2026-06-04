@@ -104,11 +104,11 @@ export default Vue.extend({
       year: new Date().getFullYear(),
       navLinks: [
         { label: 'Home', href: '/' },
-        { label: 'Services', href: '/#services' },
+        { label: 'Results', href: '/#results' },
         { label: 'Work', href: '/#work' },
-        { label: 'Process', href: '/#process' },
+        { label: 'Portfolio', href: '/#portfolio' },
+        { label: 'Services', href: '/#services' },
         { label: 'FAQs', href: '/#faqs' },
-        { label: 'ALF Reputation Engine', href: '/alf-reputation-engine' },
         { label: 'Book a Call', href: '/#contact' },
       ],
       socials: [
