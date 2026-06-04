@@ -5,36 +5,38 @@
     </div>
 
     <div class="relative max-w-7xl mx-auto px-6">
-      <!-- Header -->
       <div v-reveal class="max-w-2xl mx-auto text-center mb-16">
-        <span class="section-label mb-6 inline-flex">What we do</span>
+        <span class="section-label mb-6 inline-flex">Growth systems</span>
         <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-5">
-          Targeted deployments.<br /><span class="gradient-text">One strategic goal.</span>
+          Services that support the full path<br /><span class="gradient-text">from trust to action</span>
         </h2>
         <p class="text-white/55 text-lg leading-relaxed">
-          Choose the leverage point your business needs most right now.
+          We lead with the system first. Industries are secondary to the conversion path your audience needs.
         </p>
       </div>
 
-      <!-- Services grid -->
-      <div v-stagger="100" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div v-stagger="100" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
         <div
           v-for="service in services"
           :key="service.title"
           class="card-dark group relative flex flex-col"
         >
-          <!-- Icon -->
           <div class="w-11 h-11 rounded-xl bg-brand-blue/12 border border-brand-blue/20 flex items-center justify-center mb-5 group-hover:bg-brand-blue/20 transition-colors">
             <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" :d="service.iconPath" />
             </svg>
           </div>
-
-          <!-- Problem label -->
-          <p class="text-white/30 text-xs font-semibold uppercase tracking-widest mb-2">{{ service.problem }}</p>
-
-          <h3 class="font-bold text-lg mb-2">{{ service.title }}</h3>
+          <h3 class="font-bold text-lg mb-3">{{ service.title }}</h3>
           <p class="text-white/50 text-sm leading-relaxed flex-1">{{ service.description }}</p>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-white/[0.08] bg-brand-navy-2 p-6 sm:p-8 text-center max-w-4xl mx-auto">
+        <p class="text-white/35 text-xs uppercase tracking-widest mb-4">Strong-fit industries</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <span v-for="industry in industries" :key="industry" class="rounded-full bg-white/[0.04] border border-white/[0.08] px-4 py-2 text-white/55 text-sm">
+            {{ industry }}
+          </span>
         </div>
       </div>
     </div>
@@ -50,48 +52,27 @@ export default Vue.extend({
     return {
       services: [
         {
-          problem: 'For businesses that need a clearer first impression',
-          title: 'Website & Landing Page Builds',
-          description:
-            'For businesses that need a stronger digital presence and better conversion flow — not just a site that looks presentable.',
+          title: 'Website Design',
+          description: 'Modern websites and landing pages built around credibility, visitor clarity, and conversion flow.',
           iconPath: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v10a2 2 0 01-2 2h-2',
         },
         {
-          problem: 'For brands that sound too generic',
-          title: 'Messaging & Positioning',
-          description:
-            'For brands that need sharper, trust-building language so the right people understand why you matter — and why to call.',
-          iconPath: 'M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z',
+          title: 'Reputation Management',
+          description: 'Trust-building review systems and reputation support for organizations where credibility drives inquiries.',
+          iconPath: 'M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.955a1 1 0 00.95.69h4.157c.969 0 1.371 1.24.588 1.81l-3.363 2.443a1 1 0 00-.364 1.118l1.286 3.955c.3.921-.755 1.688-1.538 1.118l-3.363-2.443a1 1 0 00-1.176 0l-3.363 2.443c-.783.57-1.838-.197-1.538-1.118l1.286-3.955a1 1 0 00-.364-1.118L4.018 9.382c-.783-.57-.381-1.81.588-1.81h4.157a1 1 0 00.95-.69l1.286-3.955z',
         },
         {
-          problem: 'For businesses that need more qualified attention',
-          title: 'Lead Generation Campaigns',
-          description:
-            'For businesses that need more qualified attention coming in consistently — not random clicks or cheap impressions.',
-          iconPath: 'M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z',
+          title: 'Automation',
+          description: 'Lead routing, appointment paths, and follow-up systems that reduce the gap between interest and response.',
+          iconPath: 'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15',
         },
         {
-          problem: 'For businesses losing leads before they close',
-          title: 'Follow-Up & Automation',
-          description:
-            'For businesses losing leads because nobody responds fast enough or consistently enough — and it is costing real revenue.',
-          iconPath: 'M13 10V3L4 14h7v7l9-11h-7z',
-        },
-        {
-          problem: 'For brands that want a partner, not a vendor',
-          title: 'Ongoing Optimization',
-          description:
-            'For brands that want a strategic partner refining what already works — testing, improving, and keeping everything sharp.',
-          iconPath: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z',
-        },
-        {
-          problem: 'For brands building content with a purpose',
-          title: 'Content Direction',
-          description:
-            'For brands that need a content system aligned to growth — not random posts that generate activity but no traction.',
-          iconPath: 'M4 6h16M4 12h8m-8 6h16',
+          title: 'Conversion Optimization',
+          description: 'Messaging, page structure, calls to action, and testing designed to improve inquiry readiness.',
+          iconPath: 'M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122',
         },
       ],
+      industries: ['Assisted Living Facilities', 'Churches', 'Local Service Businesses', 'Select Digital Brands'],
     }
   },
 })
