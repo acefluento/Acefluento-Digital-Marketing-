@@ -23,27 +23,36 @@
 
           <!-- Headline -->
           <h1 class="animate-hero-2 text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight mb-6">
-            Websites and lead<br />
-            systems for<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based local brands</span>
+            We fill assisted-living<br />
+            tour schedules at<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">$14.30 a lead.</span>
           </h1>
 
           <!-- Subheadline -->
-          <p class="animate-hero-3 text-lg sm:text-xl text-white/60 max-w-xl mb-3 leading-relaxed">
-            We help assisted living facilities, churches, and service brands turn attention into calls, inquiries, and clients.
-          </p>
-          <p class="animate-hero-3 text-base text-white/40 max-w-xl mb-8 leading-relaxed">
-            Websites alone do not grow a business. You need clear messaging, strong conversion paths, and follow-up that actually happens.
+          <p class="animate-hero-3 text-lg sm:text-xl text-white/60 max-w-xl mb-8 leading-relaxed">
+            Meta campaigns built for care-driven brands — booked family tours, not impressions. We show you live cost-per-lead before you sign anything.
           </p>
 
-          <!-- Bullets -->
-          <ul class="animate-hero-4 space-y-3 mb-10">
-            <li v-for="bullet in bullets" :key="bullet" class="flex items-center gap-3 text-white/65 text-sm">
-              <svg class="w-4 h-4 text-brand-blue flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              {{ bullet }}
-            </li>
-          </ul>
+          <!-- Live pipeline proof -->
+          <div class="animate-hero-4 mb-10">
+            <div class="flex items-center gap-2 text-xs text-white/30 uppercase tracking-widest font-medium mb-3">
+              <span class="w-1.5 h-1.5 rounded-full bg-brand-emerald animate-pulse-slow"></span>
+              Live campaign · Creative Living Care Group
+            </div>
+            <div class="grid grid-cols-3 gap-3">
+              <div class="bg-white/[0.04] border border-white/[0.08] rounded-xl p-3">
+                <div class="text-2xl font-bold text-white">$14.30</div>
+                <div class="text-xs text-white/40 mt-0.5">Cost / Lead</div>
+              </div>
+              <div class="bg-white/[0.04] border border-white/[0.08] rounded-xl p-3">
+                <div class="text-2xl font-bold text-white">+24</div>
+                <div class="text-xs text-white/40 mt-0.5">Inquiries this mo.</div>
+              </div>
+              <div class="bg-white/[0.04] border border-brand-blue/25 rounded-xl p-3">
+                <div class="text-2xl font-bold text-brand-blue">11</div>
+                <div class="text-xs text-white/40 mt-0.5">Tours booked</div>
+              </div>
+            </div>
+          </div>
 
           <!-- CTAs -->
           <div class="animate-hero-5 flex flex-col sm:flex-row gap-4 items-start mb-10">
@@ -61,7 +70,7 @@
           <!-- Proof strip -->
           <div class="animate-hero-5 border-t border-white/[0.07] pt-7">
             <p class="text-white/30 text-xs uppercase tracking-widest font-medium mb-4">
-              Trusted by local service, care, and community-based brands
+              Clients we've built for
             </p>
             <div class="flex flex-wrap gap-2">
               <span v-for="tag in proofTags" :key="tag" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-white/[0.04] border border-white/[0.08] text-white/40 text-xs">
@@ -117,7 +126,7 @@
                 </div>
                 <div class="flex justify-between text-xs">
                   <span class="text-white/40">Cost/Lead</span>
-                  <span class="text-white font-medium">$14.20</span>
+                  <span class="text-white font-medium">$14.30</span>
                 </div>
               </div>
               <div class="mt-3 h-1.5 bg-white/8 rounded-full overflow-hidden">
@@ -175,16 +184,11 @@ export default Vue.extend({
   name: 'HeroSection',
   data() {
     return {
-      bullets: [
-        'Built for trust-first industries',
-        'Designed to increase inquiries, not just look polished',
-        'Backed by strategy, automation, and conversion thinking',
-      ],
       proofTags: [
-        'Assisted living web redesigns',
-        'Church communication systems',
-        'Local business lead flow',
-        'Service brand visibility',
+        'Creative Living Care Group',
+        'Euclid Church of Christ',
+        'JR Global Painting',
+        'MissionCoach AI',
       ],
     }
   },
