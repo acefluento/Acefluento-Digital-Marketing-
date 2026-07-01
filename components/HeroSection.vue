@@ -1,3 +1,4 @@
+```vue
 <template>
   <section class="relative min-h-screen flex items-center overflow-hidden pt-20">
     <!-- Background -->
@@ -13,65 +14,62 @@
     <div class="relative max-w-7xl mx-auto px-6 py-24 lg:py-32 w-full">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
 
-        <!-- Left: Copy -->
+        <!-- Left: Copy (Optimized for Conversions) -->
         <div>
-          <!-- Eyebrow badge -->
+          <!-- Eyebrow badge: Added local authority -->
           <div class="animate-hero-1 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-blue/10 border border-brand-blue/25 text-brand-blue text-sm font-medium mb-8">
             <span class="w-2 h-2 rounded-full bg-brand-blue animate-pulse-slow"></span>
-            Based in Cleveland, OH · Serving local and remote clients
+            Cleveland's Top Web & Lead Gen Agency
           </div>
 
-          <!-- Headline -->
+          <!-- Headline: Added action-oriented framing -->
           <h1 class="animate-hero-2 text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight mb-6">
-            Websites and lead<br />
-            systems for<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based local brands</span>
+            High-performance<br />
+            websites & lead systems for<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based brands</span>
           </h1>
 
-          <!-- Subheadline -->
-          <p class="animate-hero-3 text-lg sm:text-xl text-white/60 max-w-xl mb-3 leading-relaxed">
-            We help assisted living facilities, churches, and service brands turn attention into calls, inquiries, and clients.
-          </p>
-          <p class="animate-hero-3 text-base text-white/40 max-w-xl mb-8 leading-relaxed">
-            Websites alone do not grow a business. You need clear messaging, strong conversion paths, and follow-up that actually happens.
+          <!-- Subheadline: Combined into one punchy, problem-solving paragraph -->
+          <p class="animate-hero-3 text-lg sm:text-xl text-white/70 max-w-xl mb-8 leading-relaxed">
+            A pretty website isn't enough. We build custom websites and automated follow-up systems for assisted living, churches, and service brands to turn quiet visitors into booked calls and clients.
           </p>
 
-          <!-- Bullets -->
+          <!-- Bullets: Switched from feature-focused to benefit-focused -->
           <ul class="animate-hero-4 space-y-3 mb-10">
-            <li v-for="bullet in bullets" :key="bullet" class="flex items-center gap-3 text-white/65 text-sm">
-              <svg class="w-4 h-4 text-brand-blue flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <li v-for="bullet in bullets" :key="bullet" class="flex items-center gap-3 text-white/80 text-sm font-medium">
+              <svg class="w-5 h-5 text-brand-blue flex-shrink-0 drop-shadow-md" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
               </svg>
               {{ bullet }}
             </li>
           </ul>
 
-          <!-- CTAs -->
+          <!-- CTAs: Made the primary CTA frictionless -->
           <div class="animate-hero-5 flex flex-col sm:flex-row gap-4 items-start mb-10">
-            <a href="#contact" class="btn-primary text-base gap-2 group">
-              Book a Strategy Call
+            <a href="#contact" class="btn-primary text-base gap-2 group shadow-lg shadow-brand-blue/20">
+              Book a Free Strategy Call
               <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
-            <a href="#work" class="btn-secondary text-base">
-              See Our Work
+            <a href="#work" class="btn-secondary text-base hover:bg-white/5 transition-colors">
+              View Case Studies
             </a>
           </div>
 
-          <!-- Proof strip -->
-          <div class="animate-hero-5 border-t border-white/[0.07] pt-7">
-            <p class="text-white/30 text-xs uppercase tracking-widest font-medium mb-4">
-              Trusted by local service, care, and community-based brands
+          <!-- Proof strip: Sharpened the tags for quicker scanning -->
+          <div class="animate-hero-5 border-t border-white/[0.1] pt-7">
+            <p class="text-white/40 text-xs uppercase tracking-widest font-semibold mb-4">
+              Systems built specifically for:
             </p>
             <div class="flex flex-wrap gap-2">
-              <span v-for="tag in proofTags" :key="tag" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-white/[0.04] border border-white/[0.08] text-white/40 text-xs">
+              <span v-for="tag in proofTags" :key="tag" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-white/[0.04] border border-white/[0.08] text-white/60 text-xs font-medium hover:bg-white/[0.08] transition-colors cursor-default">
                 {{ tag }}
               </span>
             </div>
           </div>
         </div>
 
-        <!-- Right: Visual composition -->
+        <!-- Right: Visual composition (Kept the same structure as it looks great, just ensuring layout stability) -->
         <div class="animate-hero-img relative hidden lg:block">
           <div class="relative w-full h-[520px]">
             <div class="absolute inset-0 bg-brand-blue/5 rounded-3xl blur-2xl"></div>
@@ -176,17 +174,20 @@ export default Vue.extend({
   data() {
     return {
       bullets: [
-        'Built for trust-first industries',
-        'Designed to increase inquiries, not just look polished',
-        'Backed by strategy, automation, and conversion thinking',
+        'Web design that drives actual phone calls & inquiries',
+        'Automated follow-up so no lead falls through the cracks',
+        'Tailored specifically for care, community & service brands',
       ],
       proofTags: [
-        'Assisted living web redesigns',
-        'Church communication systems',
-        'Local business lead flow',
-        'Service brand visibility',
+        'Assisted Living',
+        'Churches & Ministries',
+        'Local Service Businesses',
+        'Reputation Management',
       ],
     }
   },
 })
 </script>
+
+
+```
