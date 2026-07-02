@@ -106,7 +106,7 @@ gtag('config', 'G-4MQGGBPE9B');`,
 },
   css: ['~/assets/css/main.css'],
 
-  plugins: ['~/plugins/animations.client.js'],
+  plugins: ['~/plugins/animations.client.js', '~/plugins/vercel-analytics.client.js'],
 
   components: true,
 
