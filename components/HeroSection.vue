@@ -45,7 +45,7 @@
           <!-- CTAs: Made the primary CTA frictionless -->
           <div class="animate-hero-5 flex flex-col sm:flex-row gap-4 items-start mb-4">
             <a href="#contact" class="btn-primary text-base gap-2 group shadow-lg shadow-brand-blue/20">
-              Claim the July Fast-Track Slot
+              Book My Free Strategy Call
               <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
