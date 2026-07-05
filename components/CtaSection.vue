@@ -13,7 +13,7 @@
 
         <!-- Left: Copy -->
         <div v-reveal="'fade-left'">
-          <span class="section-label mb-6 inline-flex">Book a strategy call</span>
+          <span class="section-label mb-6 inline-flex">July Fast-Track — 1 slot</span>
 
           <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-5 leading-tight">
             If your business is getting attention<br class="hidden lg:block" />
@@ -23,6 +23,7 @@
 
           <p class="text-white/55 text-base mb-6 leading-relaxed max-w-md">
             Book a strategy call and we'll identify what is slowing growth down.
+            <span class="text-white font-medium">Book this week and your new system is live before the end of July.</span>
           </p>
 
           <!-- Problem bullets -->

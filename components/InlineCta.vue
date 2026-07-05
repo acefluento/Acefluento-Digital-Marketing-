@@ -8,7 +8,7 @@
         href="#contact"
         class="btn-primary text-sm whitespace-nowrap gap-2 group flex-shrink-0"
       >
-        Book Free Strategy Call
+        Claim the July Slot — Free Call
         <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
@@ -25,7 +25,7 @@ export default Vue.extend({
   props: {
     message: {
       type: String,
-      default: 'Ready to build a system that actually moves your business forward?',
+      default: 'One July Fast-Track slot: full site + lead system, live in 14 days.',
     },
     dark: {
       type: Boolean,

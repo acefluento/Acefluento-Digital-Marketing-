@@ -7,10 +7,10 @@
       <ProblemSection />
       <SystemSection />
       <ServicesSection />
-      <InlineCta message="Not sure which service fits? Start with a strategy call — we'll identify the right leverage point for your business." />
+      <InlineCta message="Taking on one Fast-Track client in July — full site + lead system, live in 14 days. Not sure which service fits? Start with a free strategy call." />
       <WhoWeHelpSection />
       <ResultsSection />
-      <InlineCta :dark="true" message="If your current site, messaging, or follow-up is costing you leads — let's find out where." />
+      <InlineCta :dark="true" message="If your current site, messaging, or follow-up is costing you leads — let's find out where. The July Fast-Track slot goes to the first fit." />
       <ProcessSection />
       <PricingSection />
       <FAQSection />
