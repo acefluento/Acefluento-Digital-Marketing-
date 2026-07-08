@@ -18,7 +18,7 @@
           <!-- Eyebrow badge: Added local authority -->
           <div class="animate-hero-1 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-blue/10 border border-brand-blue/25 text-brand-blue text-sm font-medium mb-8">
             <span class="w-2 h-2 rounded-full bg-brand-blue animate-pulse-slow"></span>
-            July Fast-Track — taking on ONE new client this month
+            Now booking July — 1 project slot
           </div>
 
           <!-- Headline: Added action-oriented framing -->
