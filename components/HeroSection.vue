@@ -1,4 +1,3 @@
-```vue
 <template>
   <section class="relative min-h-screen flex items-center overflow-hidden pt-20">
     <!-- Background -->
@@ -19,7 +18,7 @@
           <!-- Eyebrow badge: Added local authority -->
           <div class="animate-hero-1 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-blue/10 border border-brand-blue/25 text-brand-blue text-sm font-medium mb-8">
             <span class="w-2 h-2 rounded-full bg-brand-blue animate-pulse-slow"></span>
-            Cleveland's Top Web & Lead Gen Agency
+            Now booking July — 1 project slot
           </div>
 
           <!-- Headline: Added action-oriented framing -->
@@ -30,7 +29,7 @@
 
           <!-- Subheadline: Combined into one punchy, problem-solving paragraph -->
           <p class="animate-hero-3 text-lg sm:text-xl text-white/70 max-w-xl mb-8 leading-relaxed">
-            A pretty website isn't enough. We build custom websites and automated follow-up systems for assisted living, churches, and service brands to turn quiet visitors into booked calls and clients.
+            A pretty website isn't enough. We build custom websites and automated follow-up systems for assisted living, churches, and service brands to turn quiet visitors into booked calls and clients. This July, one client gets the full system — live in 14 days.
           </p>
 
           <!-- Bullets: Switched from feature-focused to benefit-focused -->
@@ -44,9 +43,9 @@
           </ul>
 
           <!-- CTAs: Made the primary CTA frictionless -->
-          <div class="animate-hero-5 flex flex-col sm:flex-row gap-4 items-start mb-10">
+          <div class="animate-hero-5 flex flex-col sm:flex-row gap-4 items-start mb-4">
             <a href="#contact" class="btn-primary text-base gap-2 group shadow-lg shadow-brand-blue/20">
-              Book a Free Strategy Call
+              Book My Free Strategy Call
               <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -55,6 +54,10 @@
               View Case Studies
             </a>
           </div>
+
+          <p class="animate-hero-5 text-white/45 text-sm mb-10">
+            Free strategy call · no commitment · you leave with a plan either way
+          </p>
 
           <!-- Proof strip: Sharpened the tags for quicker scanning -->
           <div class="animate-hero-5 border-t border-white/[0.1] pt-7">
@@ -188,6 +191,3 @@ export default Vue.extend({
   },
 })
 </script>
-
-
-```

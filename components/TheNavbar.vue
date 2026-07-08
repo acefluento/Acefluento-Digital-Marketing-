@@ -8,7 +8,8 @@
     <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
       <!-- Logo -->
       <a href="/" class="flex items-center gap-2.5 group">
-        <img src="/logo.svg" alt="Acefluento" class="h-9 w-auto" width="180" height="36" decoding="async" fetchpriority="high" />
+        <img src="/logo.png" alt="Acefluento" class="h-9 w-9" width="36" height="36" decoding="async" fetchpriority="high" />
+        <span class="text-xl font-extrabold tracking-tight text-white">Acefluento</span>
       </a>
 
       <!-- Desktop Nav -->
