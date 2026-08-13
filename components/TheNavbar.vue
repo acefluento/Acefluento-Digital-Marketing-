@@ -77,10 +77,10 @@ export default Vue.extend({
       mobileOpen: false,
       navLinks: [
         { label: 'Services', href: '/#services' },
-        { label: 'Process', href: '/#process' },
-        { label: 'Work', href: '/#work' },
-        { label: 'FAQs', href: '/#faqs' },
+        { label: 'Resources', href: '/resources' },
+        { label: 'Articles', href: '/articles' },
         { label: 'ALF Reputation Engine', href: '/alf-reputation-engine' },
+        { label: 'FAQs', href: '/#faqs' },
       ],
     }
   },

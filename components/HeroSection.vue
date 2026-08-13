@@ -1,4 +1,3 @@
-```vue
 <template>
   <section class="relative min-h-screen flex items-center overflow-hidden pt-20">
     <!-- Background -->
@@ -30,7 +29,7 @@
 
           <!-- Subheadline: Combined into one punchy, problem-solving paragraph -->
           <p class="animate-hero-3 text-lg sm:text-xl text-white/70 max-w-xl mb-8 leading-relaxed">
-            A pretty website isn't enough. We build custom websites and automated follow-up systems for assisted living, churches, and service brands to turn quiet visitors into booked calls and clients.
+            A pretty website isn't enough. We build high-converting websites, reputation systems, and automated follow-up for assisted living and independent living communities, churches, and service brands — turning quiet visitors into booked calls, move-ins, and members.
           </p>
 
           <!-- Bullets: Switched from feature-focused to benefit-focused -->
@@ -180,6 +179,7 @@ export default Vue.extend({
       ],
       proofTags: [
         'Assisted Living',
+        'Independent Living',
         'Churches & Ministries',
         'Local Service Businesses',
         'Reputation Management',
@@ -188,6 +188,3 @@ export default Vue.extend({
   },
 })
 </script>
-
-
-```

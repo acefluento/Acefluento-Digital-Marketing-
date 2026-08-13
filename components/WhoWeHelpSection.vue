@@ -12,7 +12,7 @@
           Built for<br /><span class="gradient-text">trust-first businesses</span>
         </h2>
         <p class="text-white/55 text-lg leading-relaxed">
-          We work best with organizations and service brands where credibility, clarity, and follow-through matter.
+          Whether families are choosing a care community or a church home, trust is decided online first. We work best with organizations and service brands where credibility, clarity, and follow-through matter.
         </p>
       </div>
 
@@ -50,9 +50,9 @@ export default Vue.extend({
     return {
       audiences: [
         {
-          title: 'Assisted Living & Care Brands',
+          title: 'Assisted & Independent Living Communities',
           description:
-            'Calm, trustworthy digital presence built to reassure families and support inquiries without feeling clinical or pushy.',
+            'Calm, trustworthy digital presence for assisted living (ALF) and independent living (ILF) communities — built to reassure families and support inquiries without feeling clinical or pushy.',
           iconPath: 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z',
         },
         {
