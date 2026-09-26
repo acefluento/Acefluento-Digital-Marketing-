@@ -5,7 +5,7 @@
         {{ message }}
       </p>
       <a
-        href="#contact"
+        :href="href"
         class="btn-primary text-sm whitespace-nowrap gap-2 group flex-shrink-0"
       >
         Book Free Strategy Call
@@ -30,6 +30,10 @@ export default Vue.extend({
     dark: {
       type: Boolean,
       default: false,
+    },
+    href: {
+      type: String,
+      default: '#contact',
     },
   },
 })

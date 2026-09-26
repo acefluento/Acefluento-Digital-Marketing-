@@ -6,11 +6,14 @@
       <TrustStrip />
       <ProblemSection />
       <SystemSection />
+      <BlueprintsSection />
       <ServicesSection />
-      <InlineCta message="Not sure which service fits? Start with a strategy call — we'll identify the right leverage point for your business." />
+      <SoftwareSection />
+      <InlineCta message="Not sure whether you need a build, the software, or just a second opinion? Start with the call — we'll tell you straight." />
       <WhoWeHelpSection />
       <ResultsSection />
-      <InlineCta :dark="true" message="If your current site, messaging, or follow-up is costing you leads — let's find out where." />
+      <TestimonialsSection />
+      <InlineCta :dark="true" message="If your site, your reviews, or your follow-up is quietly costing you clients — let's find out where." />
       <ProcessSection />
       <PricingSection />
       <FAQSection />

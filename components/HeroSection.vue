@@ -1,4 +1,3 @@
-```vue
 <template>
   <section class="relative min-h-screen flex items-center overflow-hidden pt-20">
     <!-- Background -->
@@ -25,12 +24,12 @@
           <!-- Headline: Added action-oriented framing -->
           <h1 class="animate-hero-2 text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight mb-6">
             High-performance<br />
-            websites & lead systems for<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based brands</span>
+            websites & lead systems for<br /><span style="background: linear-gradient(to right, #ffffff, #fca5a5, #D7263D); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based brands</span>
           </h1>
 
           <!-- Subheadline: Combined into one punchy, problem-solving paragraph -->
           <p class="animate-hero-3 text-lg sm:text-xl text-white/70 max-w-xl mb-8 leading-relaxed">
-            A pretty website isn't enough. We build custom websites and automated follow-up systems for assisted living, churches, and service brands to turn quiet visitors into booked calls and clients.
+            A pretty website isn't enough. We build high-converting websites, reputation systems, and automated follow-up for assisted living and independent living communities, churches, and service brands — turning quiet visitors into booked calls, move-ins, and members.
           </p>
 
           <!-- Bullets: Switched from feature-focused to benefit-focused -->
@@ -51,8 +50,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
-            <a href="#work" class="btn-secondary text-base hover:bg-white/5 transition-colors">
-              View Case Studies
+            <a href="/resources" class="btn-secondary text-base hover:bg-white/5 transition-colors">
+              Get the Free Blueprint
             </a>
           </div>
 
@@ -174,20 +173,19 @@ export default Vue.extend({
   data() {
     return {
       bullets: [
-        'Web design that drives actual phone calls & inquiries',
-        'Automated follow-up so no lead falls through the cracks',
-        'Tailored specifically for care, community & service brands',
+        'Websites that turn a 10pm search into a booked tour or first visit',
+        'Reviews monitored and answered, so families trust you before they call',
+        'Follow-up systems so no inquiry dies in an unchecked inbox',
       ],
       proofTags: [
         'Assisted Living',
+        'Independent Living',
         'Churches & Ministries',
         'Local Service Businesses',
         'Reputation Management',
+        'Google Business Profile',
       ],
     }
   },
 })
 </script>
-
-
-```

@@ -28,7 +28,7 @@ export default Vue.extend({
   data() {
     return {
       categories: [
-        'Assisted Living & Care Brands',
+        'Assisted & Independent Living',
         'Churches & Organizations',
         'Local Service Businesses',
         'Select Digital Brands',

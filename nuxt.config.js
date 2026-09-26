@@ -1,3 +1,5 @@
+import { socials } from './data/site'
+
 export default {
   target: 'static',
 
@@ -57,7 +59,7 @@ export default {
   ],
 
   link: [
-    { rel: 'canonical', href: 'https://acefluento.com/' },
+    { hid: 'canonical', rel: 'canonical', href: 'https://acefluento.com/' },
 
     // Favicons
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -85,7 +87,7 @@ export default {
         name: 'Acefluento',
         url: 'https://acefluento.com/',
         logo: 'https://acefluento.com/logo.png',
-        sameAs: [],
+        sameAs: socials.map((s) => s.href).filter((h) => h.startsWith('http')),
       }),
     },
 
