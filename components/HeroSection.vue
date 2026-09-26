@@ -50,8 +50,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
-            <a href="#work" class="btn-secondary text-base hover:bg-white/5 transition-colors">
-              View Case Studies
+            <a href="/resources" class="btn-secondary text-base hover:bg-white/5 transition-colors">
+              Get the Free Blueprint
             </a>
           </div>
 
@@ -173,9 +173,9 @@ export default Vue.extend({
   data() {
     return {
       bullets: [
-        'Web design that drives actual phone calls & inquiries',
-        'Automated follow-up so no lead falls through the cracks',
-        'Tailored specifically for care, community & service brands',
+        'Websites that turn a 10pm search into a booked tour or first visit',
+        'Reviews monitored and answered, so families trust you before they call',
+        'Follow-up systems so no inquiry dies in an unchecked inbox',
       ],
       proofTags: [
         'Assisted Living',
@@ -183,6 +183,7 @@ export default Vue.extend({
         'Churches & Ministries',
         'Local Service Businesses',
         'Reputation Management',
+        'Google Business Profile',
       ],
     }
   },

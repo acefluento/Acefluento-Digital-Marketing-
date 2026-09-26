@@ -108,7 +108,13 @@
     @apply bg-brand-navy-2 border border-white/[0.08] rounded-2xl p-8 transition-all duration-300 hover:border-brand-blue/25 hover:bg-gradient-card hover:-translate-y-1;
   }
   .gradient-text {
-    @apply bg-gradient-to-r from-white via-slate-200 to-brand-blue bg-clip-text;
+    /* Explicit gradient rather than @apply bg-gradient-to-r: Tailwind's gradient
+       utilities compile to var(--tw-gradient-*-position) defaults that aren't
+       emitted in this build, which made the whole background-image invalid and
+       rendered every gradient headline invisible. Same colors as the hero. */
+    background-image: linear-gradient(to right, #ffffff, #cbd5e1, #2563eb);
+    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;

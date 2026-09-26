@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 bg-brand-navy-2 border-y border-white/[0.06]">
+  <section v-if="socials.length" class="py-20 bg-brand-navy-2 border-y border-white/[0.06]">
     <div class="max-w-4xl mx-auto px-6 text-center">
       <span class="section-label mb-6 inline-flex">Connect</span>
       <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight mt-4 mb-4">
@@ -33,8 +33,12 @@ import { socials } from '~/data/site'
 
 export default Vue.extend({
   name: 'ConnectSection',
-  data() {
-    return { socials }
+  computed: {
+    // Only render profiles that have a real URL yet — placeholders in data/site.js
+    // stay hidden instead of shipping dead links.
+    socials() {
+      return socials.filter((s) => s.href.startsWith('http'))
+    },
   },
 })
 </script>

@@ -7,8 +7,13 @@
   >
     <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
       <!-- Logo -->
-      <a href="/" class="flex items-center gap-2.5 group">
-        <img src="/logo.svg" alt="Acefluento" class="h-9 w-auto" width="180" height="36" decoding="async" fetchpriority="high" />
+      <a href="/" class="flex items-center gap-2.5 group" aria-label="Acefluento home">
+        <span class="w-9 h-9 rounded-xl bg-brand-red flex items-center justify-center shadow-lg shadow-brand-red/20 group-hover:scale-105 transition-transform">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+          </svg>
+        </span>
+        <span class="text-xl font-bold tracking-tight">Ace<span class="text-brand-red">fluento</span></span>
       </a>
 
       <!-- Desktop Nav -->
@@ -77,10 +82,10 @@ export default Vue.extend({
       mobileOpen: false,
       navLinks: [
         { label: 'Services', href: '/#services' },
-        { label: 'Resources', href: '/resources' },
+        { label: 'Software', href: '/#software' },
+        { label: 'Free Resources', href: '/resources' },
         { label: 'Articles', href: '/articles' },
-        { label: 'ALF Reputation Engine', href: '/alf-reputation-engine' },
-        { label: 'FAQs', href: '/#faqs' },
+        { label: 'Reputation Engine', href: '/alf-reputation-engine' },
       ],
     }
   },
