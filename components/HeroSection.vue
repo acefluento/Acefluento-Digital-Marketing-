@@ -24,7 +24,7 @@
           <!-- Headline: Added action-oriented framing -->
           <h1 class="animate-hero-2 text-5xl sm:text-6xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight mb-6">
             High-performance<br />
-            websites & lead systems for<br /><span style="background: linear-gradient(to right, #ffffff, #cbd5e1, #2563EB); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based brands</span>
+            websites & lead systems for<br /><span style="background: linear-gradient(to right, #ffffff, #fca5a5, #D7263D); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">trust-based brands</span>
           </h1>
 
           <!-- Subheadline: Combined into one punchy, problem-solving paragraph -->

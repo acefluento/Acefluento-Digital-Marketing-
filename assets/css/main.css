@@ -111,8 +111,8 @@
     /* Explicit gradient rather than @apply bg-gradient-to-r: Tailwind's gradient
        utilities compile to var(--tw-gradient-*-position) defaults that aren't
        emitted in this build, which made the whole background-image invalid and
-       rendered every gradient headline invisible. Same colors as the hero. */
-    background-image: linear-gradient(to right, #ffffff, #cbd5e1, #2563eb);
+       rendered every gradient headline invisible. Brand red, same as the hero. */
+    background-image: linear-gradient(to right, #ffffff, #fca5a5, #d7263d);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
